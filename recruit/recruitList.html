@@ -15,6 +15,7 @@
 		
 		th {
 			border: 1px solid gray;
+			height: 50px;
 		}
 		
 		td {
@@ -22,8 +23,10 @@
 		}
 		
 		 .button {
-		 	background-color:#33d3ff;
+		 	background-color:#c4cff7;
 		 }
+		 
+		
 	</style>
 	
 </head>
@@ -31,10 +34,28 @@
 <body style="background-image: url('./image/samsung.png'); background-repeat: repeat-x;  background-size: cover;">
  	<fom atction="./recruitFrom.html">
 		<div style align="center">
- 			<span style="color:blue; font-size:250%; align:center;">입사지원 현황</span>
- 			<br><span style="font-size: 170%;">■22년 3분기 지원자 현황</span>
-		 	<table>
+			<image alt="" src="./image/samsung2.jpg" width="100px">
+ 			<span style="color:blue; font-size:250%; align:center; font-style:italic;">입사지원 현황</span>
+ 			<br>
+ 			<span style="font-size: 170%;">■22년 3분기 지원자 현황</span>
+ 			<br>
+ 			<br>
+			<p style="margin-right:780px">
+				<select name="지원분야">
+ 					<option value="지원분야">지원분야
+					<option value="삼성디스플레이">삼성디스플레이
+					<option value="삼성중공업">삼성중공업
+					<option value="삼성바이오">삼성바이오
+					<option value="삼성물산">삼성물산
+					<option value="삼성전자">삼성전자
+					<option value="삼성생명">삼성디스플레이
+				</select>
+			</p>
+		 	<table style="text-align:center">
 		 		<tr>
+		 			<td>
+						<input type="checkbox" name="선택">
+					</td>
 		 			<th>번호</th>
 		 			<th>지원분야</th>
 		 			<th>이름</th>
@@ -46,107 +67,134 @@
 		 			<th>상세정보</th>
 				</tr>
 				<tr>
-		 			<th>1</th>
-		 			<th>삼성디스플레이</th>
-		 			<th>
+					<td>
+						<input type="checkbox" name="선택1">
+					</td>
+		 			<td>1</td>
+		 			<td>삼성디스플레이</td>
+		 			<td>
 		 				<a href="recruitView.html">마동석</a>
-		 			<th>남</th>
-		 			<th>신입</th>
-		 			<th>010-1111-1111</th>
-		 			<th>서울시 서초구 </th>
-		 			<th>aaaa@naver.com</th>
-		 			<th>상세정보</th>
+		 			<td>남</td>
+		 			<td>신입</td>
+		 			<td>010-1111-1111</td>
+		 			<td>서울시 서초구 </td>
+		 			<td>aaaa@naver.com</td>
+		 			<td>상세정보</td>
 				</tr>
 				<tr>
-		 			<th>2</th>
-		 			<th>삼성중공업</th>
-		 			<th>이나영</th>
-		 			<th>여</th>
-		 			<th>경력직</th>
-		 			<th>010-2222-2222</th>
-		 			<th>서울시 서초구 잠원동</th>
-		 			<th>bbbb@nate.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택2">
+					</td>
+		 			<td>2</td>
+		 			<td>삼성중공업</td>
+		 			<td>이나영</td>
+		 			<td>여</td>
+		 			<td>경력직</td>
+		 			<td>010-2222-2222</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>bbbb@nate.com</td>
+		 			<td>상세정보</td>
 				</tr>
 				<tr>
-		 			<th>3</th>
-		 			<th>삼성바이오</th>
-		 			<th>정우성</th>
-		 			<th>남</th>
-		 			<th>경력</th>
-		 			<th>010-3333-3333</th>
-		 			<th>서울시 도봉구 방학동</th>
-		 			<th>ccccc@naver.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택3">
+					</td>
+		 			<td>3</td>
+		 			<td>삼성바이오</td>
+		 			<td>정우성</td>
+		 			<td>남</td>
+		 			<td>경력</td>
+		 			<td>010-3333-3333</td>
+		 			<td>서울시 도봉구 방학동</td>
+		 			<td>ccccc@naver.com</td>
+		 			<td>상세정보</td>
 				</tr>
 				<tr>
-		 			<th>4</th>
-		 			<th>삼성물산</th>
-		 			<th>황정민</th>
-		 			<th>남</th>
-		 			<th>신입</th>
-		 			<th>010-4444-4444</th>
-		 			<th>경기도 의정부시 가능동</th>
-		 			<th>dddd@hanmail.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택4">
+					</td>
+		 			<td>4</td>
+		 			<td>삼성물산</td>
+		 			<td>황정민</td>
+		 			<td>남</td>
+		 			<td>신입</td>
+		 			<td>010-4444-4444</td>
+		 			<td>경기도 의정부시 가능동</td>
+		 			<td>dddd@hanmail.com</td>
+		 			<td>상세정보</th>
 				</tr>
 				<tr>
-		 			<th>5</th>
-		 			<th>삼성전자</th>
-		 			<th>태&nbsp;연</th>
-		 			<th>여</th>
-		 			<th>경력</th>
-		 			<th>010-5555-5555</th>
-		 			<th>서울시 서초구 잠원동</th>
-		 			<th>eeee@naver.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택5">
+					</td>
+		 			<td>5</td>
+		 			<td>삼성전자</td>
+		 			<td>태&nbsp;연</td>
+		 			<td>여</td>
+		 			<td>경력</td>
+		 			<td>010-5555-5555</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>eeee@naver.com</td>
+		 			<td>상세정보</td>
 				</tr>
 				<tr>
-		 			<th>6</th>
-		 			<th>삼성전자</th>
-		 			<th>윤&nbsp;아</th>
-		 			<th>여</th>
-		 			<th>경력</th>
-		 			<th>010-6666-6666</th>
-		 			<th>서울시 강남구 테헤란로</th>
-		 			<th>ffff@nate.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택6">
+					</td>
+		 			<td>6</td>
+		 			<td>삼성전자</td>
+		 			<td>윤&nbsp;아</td>
+		 			<td>여</td>
+		 			<td>경력</td>
+		 			<td>010-6666-6666</td>
+		 			<td>서울시 강남구 테헤란로</td>
+		 			<td>ffff@nate.com</td>
+		 			<td>상세정보</td>
 				</tr>
 				<tr>
-		 			<th>7</th>
-		 			<th>삼성중공업</th>
-		 			<th>박서준</th>
-		 			<th>남</th>
-		 			<th>경력</th>
-		 			<th>010-7777-7777</th>
-		 			<th>서울시 서초구 잠원동</th>
-		 			<th>gggg@daum.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택7">
+					</td>
+		 			<td>7</td>
+		 			<td>삼성중공업</td>
+		 			<td>박서준</td>
+		 			<td>남</td>
+		 			<td>경력</td>
+		 			<td>010-7777-7777</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>gggg@daum.com</td>
+		 			<td>상세정보</td>
 				</tr>
 				<tr>
-		 			<th>8</th>
-		 			<th>삼성디스플레이</th>
-		 			<th>김종국</th>
-		 			<th>남</th>
-		 			<th>신입</th>
-		 			<th>010-8888-8888</th>
-		 			<th>경기도 양주시 백석읍</th>
-		 			<th>hhhhh@naver.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택8">
+					</td>
+		 			<td>8</td>
+		 			<td>삼성디스플레이</td>
+		 			<td>김종국</td>
+		 			<td>남</td>
+		 			<td>신입</td>
+		 			<td>010-8888-8888</td>
+		 			<td>경기도 양주시 백석읍</td>
+		 			<td>hhhhh@naver.com</td>
+		 			<td>상세정보</td>
 				</tr>
 				<tr>
-		 			<th>9</th>
-		 			<th>삼성생명</th>
-		 			<th>김소연</th>
-		 			<th>여자</th>
-		 			<th>경력</th>
-		 			<th>010-9999-9999</th>
-		 			<th>서울시 서초구 잠원동</th>
-		 			<th>iiiii@naver.com</th>
-		 			<th>상세정보</th>
+					<td>
+						<input type="checkbox" name="선택9">
+					</td>
+		 			<td>9</td>
+		 			<td>삼성생명</td>
+		 			<td>김소연</td>
+		 			<td>여자</td>
+		 			<td>경력</td>
+		 			<td>010-9999-9999</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>iiiii@naver.com</td>
+		 			<td>상세정보</th>
 				</tr>
 				<tr>
-					<td colspan="9" align="right">
+					<td colspan="9" align="center">
 						<a href="recruitRegFrom.html">
 						<input type="button" value="지원하기" class="button">
 					</td>

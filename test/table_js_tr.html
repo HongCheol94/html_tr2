@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>table</title>
+	
+</head>
+<body>
+<table id='fruits' border="1">
+  <tr><td>사과</td><td>apple</td></tr>
+  <tr><td>오렌지<td>orange</td></tr>
+  <tr><td>바나나</td><td>banana</td></tr>
+</table>
+<input type='button' 
+       value='행추가' 
+       onclick='addRow()' />
+
+<script type="text/javascript">
+	function addrow() {
+		// tabel element 찾기
+		const table = document.getElementById('fruits');
+		// 새 행(Row) 추가
+		const newRow = tabel.insertRow();
+		
+		// 새 행(Row)에 Cell 추가
+		const newCell1 = newRow.insertCell(0);
+		const newcell2 = newRow.insertCell(1);
+		
+		// Cell에 텍스트 추가
+		newCell1.innerText = '새 과일';
+		newCell2.ineerText = 'new Fruit';
+	}
+</script>
+
+</body>
+</html>

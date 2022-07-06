@@ -1,104 +1,198 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="uTF-8"
-	<meta name="viewport" content="width+divice-width initial-scale=1.0"
-	<title>이력서 양식</title>
+	<meta charset="uTF-8">
+	<meta name="viewport" content="width+device-width, initial-scale=1.0">
+	<title>Hongcheol94</title>
 	<style type="text/css">
-		table, th, td {
-			border: 1px solid black;
-			border-collapse : collapse;
-			width:"1000px";
-			}
+		table {
+			border: 1px solid blue;
+			border-right: hidden;
+			border-left: hidden;
+			width: 900px;
 			
-		th, td{
-			padding:"10px"
+		}
 		
-		}</style>
+		th {
+			border: 1px solid gray;
+			height: 50px;
+		}
+		
+		td {
+			border: 1px solid gray;
+		}
+		
+		 .button {
+		 	background-color:#33d3ff;
+		 }
+		 
+		
+	</style>
+	
 </head>
-<body>
-	<h1 align="center";><mark bgcolor="yellow">입사지원서</mark></h1>
-	<table style="text-align:center;">
-		<tr>
-			<td width="100px" bgcolor="blue">지원분야</td>
-			<td width="100px"></td>
-			<td width="100px">경력구분</td>
-			<td width="100px">신입</td>
-			<td width="100px">회망연봉</td>
-			<td width="100px">회사 내규에 따름</td>
-		</tr>
-	</table>
-	<br>
-	<h4>◻기본정보︎</h4>
-		<table style="text-align:center">
-			<tr>
-				<td width="200px>" rowspan="6" style="color:red">정장차림의 증명사진<br>넣으시면<br>됩니다.단축키<br>ctrl+N+I</td>
-				<td width="100px">성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;명</td>
-				<td width="100px"></td>
-				<td width="100px">한&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문</td>
-				<td width="100px"></td>
-			</tr>
-			<tr>
-				<!-- <td width="100px>"></td> -->
-				<td width="100px">영&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문</td>
-				<td width="100px"></td>
-				<td width="100px">생년월일</td>
-				<td width="100px"></td>
-			</tr>
-			<tr>
-				<!-- <td width="100px>"></td> -->
-				<td width="100px">전화번호</td>
-				<td width="100px"></td>
-				<td width="100px">비상연락망</td>
-				<td width="100px"></td>
-			</tr>
-			<tr>
-				<!-- <td width="100px>"></td> -->
-				<td width="100px">전자우편</td>
-				<td width="100px"></td>
-				<td width="100px">나&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이</td>
-				<td width="100px"></td>
-			</tr>
-			<tr>
-				<!--<td width="100px>"></td> -->
-				<td width="100px">주&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소</td>
-				<td width="100px" colspan="3"></td>
-				<!-- <td width="100px"></td> -->
-				<!-- <td width="100px"></td> -->
-			</tr>
-			<tr>
-				<!-- <td width="100px>"></td> -->
-				<td width="100px">취미생활</td>
-				<td width="100px" colspan="3" style="color:orange">취미생활</td>
-				<!-- <td width="100px"></td> -->
-				<!-- <td width="100px"></td> -->
-			</tr>
-		</table>
-		<br>
-		<h4>◻︎학력사항 (최신이력이 가장 위로)</h4>
-		<table style="text-align:center">
-			<tr>
-				<td width="100px">기간</td>
-				<td width="100px">출신학교</td>
-				<td width="100px">구분</td>
-				<td width="100px">학과</td>
-				<td width="100px">소재지</td>
-			</tr>
-			<tr>
-			<td width="100px" style="color:orange">2017.03 ~ 2021.02</td>
-				<td width="100px"></td>
-				<td width="100px"></td>
-				<td width="100px"></td>
-				<td width="100px"></td>
-			</tr>
-			<tr>
-				<td width="100px"></td>
-				<td width="100px"></td>
-				<td width="100px"></td>
-				<td width="100px"></td>
-				<td width="100px"></td>
-			</tr>
-		</table>
-	</table>
+
+<body style="background-image: url('./image/samsung.png'); background-repeat: repeat-x;  background-size: cover;">
+ 	<fom atction="./recruitFrom.html" id="id">
+		<div style align="center">
+ 			<span style="color:blue; font-size:250%; align:center; font-style:italic;">입사지원 현황</span>
+ 			<br>
+ 			<span style="font-size: 170%;">■22년 3분기 지원자 현황</span>
+		 	<table style="text-align:center">
+		 		<tr>
+		 			<th>선택</th>
+		 			<th>번호</th>
+		 			<th>지원분야</th>
+		 			<th>이름</th>
+		 			<th>성별</th>
+		 			<th>경력구분</th>
+		 			<th>전화번호</th>
+		 			<th>주소</th>
+		 			<th>이메일</th>
+		 			<th>상세정보</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택1">
+					</td>
+		 			<td>1</td>
+		 			<td>삼성디스플레이</td>
+		 			<td>
+		 				<a href="recruitView.html">마동석</a>
+		 			<td>남</td>
+		 			<td>신입</td>
+		 			<td>010-1111-1111</td>
+		 			<td>서울시 서초구 </td>
+		 			<td>aaaa@naver.com</td>
+		 			<td>상세정보</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택2">
+					</td>
+		 			<td>2</td>
+		 			<td>삼성중공업</td>
+		 			<td>이나영</td>
+		 			<td>여</td>
+		 			<td>경력직</td>
+		 			<td>010-2222-2222</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>bbbb@nate.com</td>
+		 			<td>상세정보</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택3">
+					</td>
+		 			<td>3</td>
+		 			<td>삼성바이오</td>
+		 			<td>정우성</td>
+		 			<td>남</td>
+		 			<td>경력</td>
+		 			<td>010-3333-3333</td>
+		 			<td>서울시 도봉구 방학동</td>
+		 			<td>ccccc@naver.com</td>
+		 			<td>상세정보</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택4">
+					</td>
+		 			<td>4</td>
+		 			<td>삼성물산</td>
+		 			<td>황정민</td>
+		 			<td>남</td>
+		 			<td>신입</td>
+		 			<td>010-4444-4444</td>
+		 			<td>경기도 의정부시 가능동</td>
+		 			<td>dddd@hanmail.com</td>
+		 			<td>상세정보</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택5">
+					</td>
+		 			<td>5</td>
+		 			<td>삼성전자</td>
+		 			<td>태&nbsp;연</td>
+		 			<td>여</td>
+		 			<td>경력</td>
+		 			<td>010-5555-5555</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>eeee@naver.com</td>
+		 			<td>상세정보</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택6">
+					</td>
+		 			<td>6</td>
+		 			<td>삼성전자</td>
+		 			<td>윤&nbsp;아</td>
+		 			<td>여</td>
+		 			<td>경력</td>
+		 			<td>010-6666-6666</td>
+		 			<td>서울시 강남구 테헤란로</td>
+		 			<td>ffff@nate.com</td>
+		 			<td>상세정보</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택7">
+					</td>
+		 			<td>7</td>
+		 			<td>삼성중공업</td>
+		 			<td>박서준</td>
+		 			<td>남</td>
+		 			<td>경력</td>
+		 			<td>010-7777-7777</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>gggg@daum.com</td>
+		 			<td>상세정보</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택8">
+					</td>
+		 			<td>8</td>
+		 			<td>삼성디스플레이</td>
+		 			<td>김종국</td>
+		 			<td>남</td>
+		 			<td>신입</td>
+		 			<td>010-8888-8888</td>
+		 			<td>경기도 양주시 백석읍</td>
+		 			<td>hhhhh@naver.com</td>
+		 			<td>상세정보</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" name="선택9">
+					</td>
+		 			<td>9</td>
+		 			<td>삼성생명</td>
+		 			<td>김소연</td>
+		 			<td>여자</td>
+		 			<td>경력</td>
+		 			<td>010-9999-9999</td>
+		 			<td>서울시 서초구 잠원동</td>
+		 			<td>iiiii@naver.com</td>
+		 			<td>상세정보</th>
+				</tr>
+				<tr>
+					<td colspan="9" align="right">
+						<a href="recruitRegFrom.html">
+						<input type="button" value="지원하기" class="button">
+					</td>
+				<!-- 	<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td> -->
+					
+			</table>
+		</div>
+	</fom>
 </body>
 </html>
